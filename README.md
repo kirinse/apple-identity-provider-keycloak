@@ -76,6 +76,10 @@ this [guide](https://github.com/klausbetz/apple-identity-provider-keycloak/wiki/
 :warning: Make sure to add the keycloak broker-URL (`https://<keycloak-url>/realms/<realm>/broker/apple/endpoint`) to your valid redirect
 URLs in your Apple Developer Account.
 
+## E-Mail configuration for private relay
+In case a user registers using a hidden email address from (private relay) the sending mail addresses need to be whitelisted in the Apple Developer account. Otherwise users with private relay addresses will not receive any emails from Keycloak.
+[See this documentation](https://developer.apple.com/help/account/capabilities/configure-private-email-relay-service/)
+
 ## Troubleshooting
 
 Please refer to the [wiki](https://github.com/klausbetz/apple-identity-provider-keycloak/wiki/Troubleshooting-the-configuration-from-Apple)
