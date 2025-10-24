@@ -77,7 +77,7 @@ this [guide](https://github.com/klausbetz/apple-identity-provider-keycloak/wiki/
 URLs in your Apple Developer Account.
 
 ## E-Mail configuration for private relay
-In case a user registers using a hidden email address from (private relay) the sending mail addresses need to be whitelisted in the Apple Developer account. Otherwise users with private relay addresses will not receive any emails from Keycloak.
+In case a user registers using a hidden email address from Apple (private relay) the sending mail address of your Keycloak realm needs to be whitelisted in the Apple Developer account. Otherwise users with private relay addresses will not receive any emails from Keycloak.
 [See this documentation](https://developer.apple.com/help/account/capabilities/configure-private-email-relay-service/)
 
 ## Troubleshooting
